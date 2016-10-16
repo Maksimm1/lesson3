@@ -1,0 +1,171 @@
+
+body {
+    margin: 0 auto;
+    display: block;
+    /*background-image: url(../img/bg.gif);*/
+	background-image: url(../img/main_bg1.png);
+	
+}
+p{
+	margin-bottom: 50px;
+}
+hr{
+	width: 90%;
+	height: 1px;
+	background-color: #00008B;
+	border: none;	
+}
+
+h1{
+	font-size: 32px;
+	text-shadow: black 2px 2px 3px;
+}
+
+/*=============================================== header =======================================================*/
+.header{
+	float: left;
+	padding: 0 250px 0px 80px;
+	margin-top: 60px;
+}
+.header-tot{
+	margin-top: 90px;
+}
+.logo{
+	
+}
+.header-menu {
+	background-color: #999FAF;
+	position: fixed;  
+	width: 930px;	
+	top: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.header-menu a{
+	text-align: center;
+	color: black;
+	text-decoration: none; 
+    font-family: verdana, arial, sans-serif;
+	padding: 30px 15px;
+	display: block;
+	float: left;
+}
+
+.header-menu a:hover {
+	text-decoration: underline;
+	background-color: #E6F41F;
+	/* padding: 22px 0px;*/
+}
+.header-menu ul{
+	float: left;
+	list-style: none;
+	padding-left: 15%;
+	position: repeat-x;
+}
+
+.header-menu ul li {
+	float: left;
+	padding: 0px 15px;
+    margin: -15px 0;	
+}
+
+.clear{
+	clear:both;
+}
+/*div{
+	width: 60px;
+	height: 60px;
+	background: #de2525;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	position: relative;
+	margin-top: 45px
+}*/
+
+.cel{
+	background-color: rgba(190, 202, 12, 0.5);
+	padding: 5px;
+	width: 95%
+}
+.oput{
+	background-color: rgba(224, 36, 17, 0.5);
+	padding: 5px;
+	width: 95%
+}
+.obr{
+	background-color: rgba(0, 120, 201, 0.5);
+	padding: 5px;
+    width: 95%	
+}
+.pov{
+	background-color: rgba(0, 720, 101, 0.5);
+	padding: 5px;
+    width: 95%	
+}
+.profesia{
+	background: linear-gradient(to top, rgba(30,87,153,0), rgba(30,87,153,0.5), rgba(30,87,153,0.8),
+                    rgba(30,87,153,0.8), rgba(41,137,216,0.8), rgba(30,87,153,0.8), rgba(30,87,153,0.8),
+                    rgba(30,87,153,0.5),rgba(30,87,153,0));
+	/*background: linear-gradient(to right, #A5A8E8, #FFEFD5, #B8B8E8);*/
+	padding: 5px;
+	width: 95%;
+	
+}
+.znanie{
+	background: linear-gradient(to bottom, lightcoral, darkred, lightcoral);
+	padding: 5px;
+	width: 95%;
+}
+.prochee{
+	background: linear-gradient(45deg, #ffCFBA, #BD5FE8);
+	padding: 5px;
+	width: 95%;
+			
+}
+
+
+/*================================================== main ======================================================*/
+#main{
+	margin: 0 auto;
+	width: 930px;
+	border: 1px solid #ffffff;
+	background:  url(../img/fon.jpg) no-repeat;
+	background-size: cover;
+}
+.content{
+	padding-left: 50px;
+}
+.smolldate{
+	font-size: 15px;
+	padding-left: 15px;
+}
+/*==================================================== footer ==================================================*/
+.footer {
+	padding-bottom: 20px;
+	margin-left: -30px;
+}
+img{
+	width: 50px;
+	height: 50px;
+	margin-left: 42px;
+    margin-top: 15px;
+	//margin: 0 auto;
+	//display: block;
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
